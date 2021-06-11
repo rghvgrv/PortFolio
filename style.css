@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+    padding: 0;
+    margin:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color:rgb(86, 165, 160);
+    padding: 2%;
+    width: auto;
+    overflow: hidden;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+nav{
+    display: block;
+    background-color:lightsteelblue;
+    padding:1%;
+    width:100%;
+    text-align: center;
+}
+nav a{
+    padding: 20px;
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+nav a:hover{
+    cursor: pointer;
+    color:blue;
+}
+
+nav a:active {
+    color: blue;
+  }
+
+.about{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.academic{
+    text-align: center;
+}
+
+.academic h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    text-align: center;
+    display:inline-block;
+}
+
+.project{
+    background-color:lightyellow;
+    border: 1px solid black;
+}
+
+.project h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project h3,ul,li{
+    margin-left: 2em;
+    text-align:start;
+}
+.skill h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#t02{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+
+#t02 th{
+    text-align: center;
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: #2899c9b1;
+    padding: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#t02 td{
+    text-align: center;
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+#t01{
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+#t01 th{
+    border: 2px solid black;
+    padding: 2%;
+    background-color:burlywood;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#t01 tr{
+    border-collapse: collapse;
+}
+
+#t03{
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+#t03 th{
+    border: 2px solid black;
+    padding: 2%;
+    background-color:burlywood;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#t03 tr{
+    border-collapse: collapse;
+}
+
+
+#t04{
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+#t04 th{
+    border: 2px solid black;
+    padding: 2%;
+    background-color:burlywood;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#t04 tr{
+       border-collapse: collapse;
+}
+
+footer{
+    background-color: antiquewhite;
+    padding: 2%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
